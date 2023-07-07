@@ -1,0 +1,35 @@
+#board {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid black;
+    height: 960px;
+    width: 960px;
+}
+
+
+.column {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    height: auto;
+    min-width: 9.6px;
+}
+.cell {
+    flex-grow: 1;
+    width: 100%;
+    min-height: 9.6px;
+}
+
+/* .square:hover {
+    background-color: yellow;
+} */
+.newCell {
+    background-color: yellow;
+}
+
+.button {
+    height: 100px;
+    width: 200px;
+}
